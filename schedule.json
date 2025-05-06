@@ -1,12 +1,26 @@
 {
-  "駅前": [
-    { "time": "07:30", "destination": "中央病院" },
-    { "time": "09:00", "destination": "図書館" },
-    { "time": "15:00", "destination": "市役所" }
-  ],
-  "高校前": [
-    { "time": "08:10", "destination": "大学" },
-    { "time": "12:30", "destination": "ターミナル" },
-    { "time": "17:45", "destination": "駅前" }
-  ]
+  "駅前": {
+    "平日": [
+      { "time": "07:30", "destination": "中央病院" },
+      { "time": "09:00", "destination": "図書館" }
+    ],
+    "土曜": [
+      { "time": "08:00", "destination": "市役所" }
+    ],
+    "休日": [
+      { "time": "10:00", "destination": "大学" }
+    ]
+  },
+  "高校前": {
+    "平日": [
+      { "time": "08:10", "destination": "大学" },
+      { "time": "17:45", "destination": "駅前" }
+    ],
+    "土曜": [
+      { "time": "09:00", "destination": "図書館" }
+    ],
+    "休日": [
+      { "time": "11:00", "destination": "ターミナル" }
+    ]
+  }
 }

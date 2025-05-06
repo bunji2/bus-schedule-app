@@ -7,8 +7,16 @@
 </head>
 <body>
   <h1>バス時刻表</h1>
+
   <label for="stop-select">出発バス停：</label>
   <select id="stop-select"></select>
+
+  <label for="day-type-select">曜日種別：</label>
+  <select id="day-type-select">
+    <option value="平日">平日</option>
+    <option value="土曜">土曜</option>
+    <option value="休日">休日</option>
+  </select>
 
   <div id="now-time"></div>
   <ul id="bus-list"></ul>
