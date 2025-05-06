@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  margin: 2em;
+  background: #f7f7f7;
+}
+
+h1 {
+  color: #333;
+}
+
+select {
+  padding: 0.5em;
+  font-size: 1em;
+  margin: 1em 0;
+}
+
+#bus-list li {
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  background: #fff;
+  border-left: 4px solid #007bff;
+}
